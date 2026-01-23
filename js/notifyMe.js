@@ -1,18 +1,18 @@
 console.log('debug: notifyMe.js');
-const Notify = {
+window.Notify = {
     send: function (infoObj) {
         alert("Service not working on GitHub pages.");
 
-        const elementIds = [
-            'contactInputName',
-            'contactInputEmail',
-            'contactInputSubject',
-            'contactInputMsg',
-        ];
+        // const elementIds = [
+        //     'contactInputName',
+        //     'contactInputEmail',
+        //     'contactInputSubject',
+        //     'contactInputMsg',
+        // ];
 
-        elementIds.forEach(id => {
-            const element = document.getElementById(id);
-            element.value = '';
-        });
+        // elementIds.forEach(id => {
+        //     const element = document.getElementById(id);
+        //     element.value = '';
+        // });
     }
 }

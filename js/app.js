@@ -1015,7 +1015,7 @@ const App = {
     TranslationServiceObj: null,
     TranslationService: class {
         static mainLangContainer = 'main-menu-lang-container'; 
-        static localStorageLanguageTranslationKey = 'languageFor_jdevs10.github.io';
+        static localStorageLanguageTranslationKey = 'languageFor_PirateJL.github.io';
         static availableLanguage = [
             {
                 type: 'en',
@@ -1037,10 +1037,8 @@ const App = {
                 this.currentLanguage = JSON.parse(savedLanguage).type;
             } else {
                 const obj = {
-                    id: 0, 
-                    type: App.TranslationService.availableLanguage[0].type, 
-                    clientWidth: 40, 
-                    offsetLeft: 5
+                    index: 0, 
+                    type: App.TranslationService.availableLanguage[0].type
                 };
                 Utils.Sessiontorage.save(App.TranslationService.localStorageLanguageTranslationKey, JSON.stringify(obj));
             }
@@ -1090,6 +1088,7 @@ const App = {
                     const savedLanguage = Utils.Sessiontorage.get(App.TranslationService.localStorageLanguageTranslationKey);
                     if (!Utils.Function.empty(savedLanguage)) {
                         const {index} = JSON.parse(savedLanguage);
+                        console.log(index, savedLanguage);
                         const img = document.querySelector(`#main-menu-lang-container img:nth-child(${index+1})`);
                         img.style.borderWidth = '2px';
                         img.style.borderColor = '#00AAFF';
@@ -1259,7 +1258,7 @@ window.onload = async (e) => {
         document.body.innerHTML = innerHtmlBodyPage;
         App.init();
 
-        if (Utils.Function.isScriptAdded('js/tagcanvas.js')) {
+        if (document.querySelector('script[src*="tagcanvas"][src$=".js"]')) {
             if (!Utils.Function.empty(TagCanvas) && !Utils.Function.empty(App.myTechCanvas)) {
                 TagCanvas.Start('myTechCanvas','tags', {
                     textColour: "#00AAFF",
