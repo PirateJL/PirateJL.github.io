@@ -306,13 +306,20 @@ const App = {
             }
         },
         mousemove: function (e) {
+            const myMenu = document.getElementById('myMenu');
+
+            console.log(myMenu.clientWidth, e.x, e.y);
+
             if (!Utils.Function.empty(App.MOBILE)) {
-                App.welcomeCanvas.mouse.x = e.x
+                App.welcomeCanvas.mouse.x = e.x - myMenu.clientWidth
                 App.welcomeCanvas.mouse.y = e.y
             } else {
-                const myMenu = document.getElementById('myMenu');
                 if (!Utils.Function.empty(myMenu)) {
-                    App.welcomeCanvas.mouse.x = e.x - myMenu.clientWidth
+                    if (e.x <= myMenu.clientWidth) {
+                        App.welcomeCanvas.mouse.x = 0
+                    } else {
+                        App.welcomeCanvas.mouse.x = e.x - myMenu.clientWidth
+                    }
                 } else {
                     App.welcomeCanvas.mouse.x = e.x
                 }
