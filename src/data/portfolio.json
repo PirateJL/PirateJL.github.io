@@ -28,20 +28,6 @@
         ]
     },
     {
-        "title": "Pacman",
-        "label": "lang.webGaming",
-        "tags" : ["lang.personalProject"],
-        "isWeb": true,
-        "appLink": "https://jdevs10.github.io/Pacman-Web-Game",
-        "thumbnail": "img/Classified-Stamp.png",
-        "description": "lang.pacmanDescription",
-        "carouselImgs": [
-            "img/Pacman/carousel-1.png",
-            "img/Pacman/carousel-2.png",
-            "img/Pacman/carousel-3.png"
-        ]
-    },
-    {
         "title": "iSales Pro",
         "label": "lang.professionalMobileApp",
         "tags" : ["lang.companyProject"],
@@ -119,6 +105,34 @@
             "img/inetty/6-inetty-presentation-store.jpg",
             "img/inetty/7-inetty-presentation-store.jpg",
             "img/inetty/8-inetty-presentation-store.jpg"
+        ]
+    },
+    {
+        "title": "Pacman",
+        "label": "lang.webGaming",
+        "tags" : ["lang.personalProject"],
+        "isWeb": true,
+        "appLink": "https://jdevs10.github.io/Pacman-Web-Game",
+        "thumbnail": "img/Pacman/game-intro.png",
+        "description": "lang.pacmanDescription",
+        "carouselImgs": [
+            "img/Pacman/carousel-1.png",
+            "img/Pacman/carousel-2.png",
+            "img/Pacman/carousel-3.png",
+            "img/Pacman/carousel-4.png"
+        ]
+    },
+    {
+        "title": "Archetype ECS Lib",
+        "label": "lang.npmPackage",
+        "tags" : ["lang.personalProject", "lang.webGaming"],
+        "isWeb": true,
+        "appLink": "https://www.npmjs.com/package/archetype-ecs-lib",
+        "thumbnail": "img/Archetype-ECS-Lib/favicon.png",
+        "description": "lang.archetypeEcsLibDescription",
+        "carouselImgs": [
+            "img/Archetype-ECS-Lib/favicon.png",
+            "img/Archetype-ECS-Lib/image.png"
         ]
     },
     {

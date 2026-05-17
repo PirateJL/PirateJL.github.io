@@ -15,6 +15,7 @@
     "myPortfolioSummary": "<p>A small presentation of my projects. I did them all together with amazing colleges. <br>This is the start of my album projects. Interested in seeing more ? Visit <a rel=\"work\" href=\"portfolio.html\">my work</a> page.</p>",
     "webApplication": "Web Application",
     "webGaming": "Web Gaming",
+    "npmPackage": "NPM Package",
     "companyProject": "Company Project",
     "personalProject": "Personal Project",
     "openSource": "Open Source",
@@ -55,5 +56,6 @@
     "contactPart6WantToTalkAbout": "and I would like to discuss about",
     "contactPart7ThisProject": "this project",
     "sendMe": "Send Me",
-    "serviceNotWorkingOnGithubPages": "Service not working on GitHub pages."
+    "serviceNotWorkingOnGithubPages": "Service not working on GitHub pages.",
+    "archetypeEcsLibDescription": "<p>A tiny <strong>archetype-based ECS</strong> (Entity Component System) for TypeScript.</p><ul><li><strong>Archetypes (tables)</strong> store entities in a <strong>SoA</strong> layout (one column per component type).</li><li><strong>Queries</strong> iterate matching archetypes efficiently.</li><li><strong>Commands</strong> let you <strong>defer structural changes</strong> (spawn/despawn/add/remove) safely.</li><li><strong>Resources (singletons)</strong> store <strong>global world state</strong> (Input, Time, Config, Asset caches…) keyed by type, without using entities.</li><li><strong>Events</strong> transient messages (Hit happened, Click happened, Play sound).</li><li>A minimal <strong>Schedule</strong> runs systems by phases and flushes commands between phaes.</li></ul><p>Exports are defined in <code>index.ts</code>:</p><ul><li><code>Types</code>, <code>TypeRegistry</code>, <code>Commands</code>, <code>World</code>, <code>Schedule</code></li></ul><p>The full documentation is at <a href=\"https://piratejl.github.io/archetype-ecs-lib/latest/\">https://piratejl.github.io/archetype-ecs-lib/latest/</a>  </p><p>Can view the <a href=\"https://piratejl.github.io/archetype-ecs-lib/latest/changelog/\">Changelog here</a></p>"
 }

@@ -1,0 +1,19 @@
+{
+  "name": "piratejl-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio site bundled with Webpack.",
+  "scripts": {
+    "start": "webpack serve --mode development --host 127.0.0.1 --port 8000",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^14.0.0",
+    "rimraf": "^6.0.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

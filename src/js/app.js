@@ -1037,7 +1037,7 @@ const App = {
                 this.currentLanguage = JSON.parse(savedLanguage).type;
             } else {
                 const obj = {
-                    id: 0, 
+                    index: 0,
                     type: App.TranslationService.availableLanguage[0].type, 
                     clientWidth: 40, 
                     offsetLeft: 5
@@ -1089,11 +1089,16 @@ const App = {
                 setTimeout(() => {
                     const savedLanguage = Utils.Sessiontorage.get(App.TranslationService.localStorageLanguageTranslationKey);
                     if (!Utils.Function.empty(savedLanguage)) {
-                        const {index} = JSON.parse(savedLanguage);
-                        const img = document.querySelector(`#main-menu-lang-container img:nth-child(${index+1})`);
-                        img.style.borderWidth = '2px';
-                        img.style.borderColor = '#00AAFF';
-                        App.TranslationService.scrollToLanguage(img.clientWidth, img.offsetLeft);
+                        const storedLanguage = JSON.parse(savedLanguage);
+                        const index = Number.isInteger(storedLanguage.index) ? storedLanguage.index : storedLanguage.id;
+                        const fallbackIndex = Number.isInteger(index) ? index : 0;
+                        const img = document.querySelector(`#${App.TranslationService.mainLangContainer} img[index="${fallbackIndex}"]`);
+
+                        if (!Utils.Function.empty(img)) {
+                            img.style.borderWidth = '2px';
+                            img.style.borderColor = '#00AAFF';
+                            App.TranslationService.scrollToLanguage(img.clientWidth, img.offsetLeft);
+                        }
                     }
                 }, 200)
             }
