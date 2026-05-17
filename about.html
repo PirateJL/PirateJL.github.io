@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bg-styles.css">
+    <link rel="stylesheet" href="css/responsible.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Portfolio JL - About Me</title>
+    <script src="js/tagcanvas.js"></script>
+    <script defer src="js/bundle.js"></script>
+</head>
+<body>
+
+    <menu id="myMenu" class="main-menu"></menu>
+
+    <div id="myContainer">
+        <div class="page-outer">
+            <span class="tags top-tags"> &lt;html&gt; <br> </span>
+            <div class="page-inner">
+
+                <section id="section-about" data-load="about" class="section-full section-about js-way">
+                    <div class="scroll-down">
+                    </div>
+                    <div class="row">
+                        <div class="text-zone">
+                            <header>
+                                <h2 aria-label="What I'm into?" class="blast-root"></h2>
+                            </header>
+                            <br>
+                            {{'lang.aboutMe' | translate}}
+                        </div>
+                        <div class="skills-charts">
+                            <div id="myTechCanvasContainer">
+                                <canvas id="myTechCanvas" width="500" height="500"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <span class="tags bottom-tags"> <br> &lt;/html&gt; </span>
+        </div>
+    </div>
+</body>
+</html>

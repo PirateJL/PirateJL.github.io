@@ -1,0 +1,26 @@
+[
+    {
+        "header": "lang.webAndMobileDeveloperInternship",
+        "section": "Big Data Consulting",
+        "date": "lang.2019During6Months",
+        "footer": "lang.bdc_webAndMobileDeveloperInternshipMissions"
+    },
+    {
+        "header": "lang.fullStackMobileAppDeveloper",
+        "section": "Big Data Consulting",
+        "date": "2019-2021",
+        "footer": "lang.bdc_fullStackMobileAppDeveloperMissions"
+    },
+    {
+        "header": "lang.atos_ediConsultntSupportN3Tradexpress",
+        "section": "Atos",
+        "date": "2020-2021",
+        "footer": "lang.atos_ediConsultntSupportN3TradexpressMissons"
+    },
+    {
+        "header": "lang.fullStackAngularPhpDeveloper",
+        "section": "Maarch",
+        "date": "2022-today",
+        "footer": "lang.maarch_fullStackAngularPhpDeveloperMissons"
+    }
+]

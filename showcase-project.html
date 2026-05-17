@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bg-styles.css">
+    <link rel="stylesheet" href="css/responsible.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Portfolio JL</title>
+    <style>
+        body { background-color: #181818; }
+        #showcase-project {
+            height: 100vh;
+        }
+        #myProjectToShowcase {
+            position: relative;
+            min-height: 60vh;
+            min-width: 400px;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+    </style>
+    <script defer src="js/bundle.js"></script>
+</head>
+<body>
+
+    <menu id="myMenu" class="main-menu"></menu>
+
+    <div id="myContainer">
+        <div class="page-outer">
+            <span class="tags top-tags"> &lt;html&gt; <br> </span>
+            <div class="page-inner">
+                <section id="showcase-project" class="section-full js-way">
+                    <div class="row" style="height: 100%;">
+                        <div class="text-zone" style="max-width: 50%;">
+                            <header>
+                                <h2 id="showcase-project-title" aria-label="" class="blast-root"></h2>
+                            </header>
+                            <br>
+                            <div id="projectTags"></div>
+                            <br>
+                            <p id="showcase-projet-description"></p>
+                        </div>
+                        <div id="myProjectToShowcase"></div>
+                    </div>
+                </section>
+            </div>
+            <span class="tags bottom-tags"> <br> &lt;/html&gt; </span>
+        </div>
+    </div>
+
+</body>
+</html>

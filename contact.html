@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bg-styles.css">
+    <link rel="stylesheet" href="css/responsible.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Portfolio JL</title>
+    <script src="js/notifyMe.js"></script>
+    <script defer src="js/bundle.js"></script>
+</head>
+<body>
+
+    <menu id="myMenu" class="main-menu"></menu>
+
+    <div id="myContainer">
+        <div class="page-outer">
+            <span class="tags top-tags"> &lt;html&gt; <br> </span>
+            <div class="page-inner">
+
+                <section id="section-contact" class="section-full section-contact">
+                    <div class="row" style="width: 100%;">
+                        <div class="fake-big">@</div>   
+                        
+                        <div id="contact-info" class="contactBlock">
+                            <div class="row">
+                                <div class="infoBlock">
+                                    <div class="infoWrap">
+                                        <header>
+                                            <h3 class="blast-root" aria-label="{{'lang.contactMe' | translate}}"></h3>
+                                        </header>
+                                        <ul>
+                                            <li class="phone"><a href="tel:+33766112937">+33766112937</a></li>
+                                            <li class="mail"><a href="mailto:jl.duzant97150@outlook.com">jl.duzant97150@outlook.com</a></li>
+                                            <li class="adr"><a href="https://goo.gl/maps/JXxyiPtmvqbSa6b87" target="_blank">{{'lang.inParis' | translate}}</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pitchBlock">
+                                    <form id="sendContact" class="infoWrap">
+                                        <header>
+                                            <h3 class="blast-root" aria-label="{{'lang.pitchMe' | translate}}"></h3>
+                                        </header>
+                                        <div class="text">
+                                            <input type="text" class="contactNameInpt">
+                                            <input type="text" class="contactMailInpt">
+                                            <input type="text" class="contactProjectInpt">
+                                            {{'lang.contactPart1Hello' | translate}},<br>
+                                            <br>
+                                            {{'lang.contactPart2MyNameIs' | translate}} <div class="cFormInput" contenteditable="true">{{'lang.contactPart3YourName' | translate}}</div>, {{'lang.contactPart4MyEmailIs' | translate}} <div class="cFormInput" contenteditable="true">{{'lang.contactPart5YourEmail' | translate}}</div> {{'lang.contactPart6WantToTalkAbout' | translate}} <div class="cFormInput" contenteditable="true">{{'lang.contactPart7ThisProject' | translate}}</div>.<br>
+                                        </div>
+                                        <button type="button" class="gradButton" onclick="Notify.send({});">{{'lang.sendMe' | translate}}</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="social-contact">
+                                <!-- Instagram Icon -->
+                                <div class="icon insta">
+                                    <img src="img/icons/instagram.svg" alt="Instagram icon" srcset="img/icons/instagram.svg">
+                                    <span>Instagram</span>
+                                </div>
+
+                                <!-- Linkedin Icon -->
+                                <div class="icon lnk">
+                                    <img src="img/icons/linkedin.svg" alt="Instagram icon" srcset="img/icons/linkedin.svg">
+                                    <span>Linkedin</span>
+                                </div>
+
+                                <!-- Github Icon -->
+                                <div class="icon git">
+                                    <img src="img/icons/github.svg" alt="Instagram icon" srcset="img/icons/github.svg">
+                                    <span>Github</span>
+                                </div>
+
+                                <!-- Codepen Icon -->
+                                <div class="icon codep">
+                                    <img src="img/icons/codepen.svg" alt="Instagram icon" srcset="img/icons/codepen.svg">
+                                    <span>Codepen</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="contact-map" class="contactBlock" style="position: relative; overflow: hidden;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44762.173438978585!2d2.318195947574766!3d48.86134612978512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1692575821189!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <span class="tags bottom-tags"> <br> &lt;/html&gt; </span>
+        </div>
+    </div>
+</body>
+</html>

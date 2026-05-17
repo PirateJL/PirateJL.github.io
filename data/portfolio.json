@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Maarch Courrier",
+        "label": "lang.webApplication",
+        "tags" : ["lang.companyProject", "lang.openSource"],
+        "isWeb": true,
+        "appLink": "https://preview.maarchcourrier.com",
+        "thumbnail": "img/MaarchCourrier/logo_only.svg",
+        "description": "lang.maarchCourrierDescription",
+        "carouselImgs": [
+            "img/MaarchCourrier/maarch-courrier-admin.png",
+            "img/MaarchCourrier/maarch-courrier-loging.png",
+            "img/MaarchCourrier/maarch-courrier-admin2.png"
+        ]
+    },
+    {
+        "title": "Maarch Parapheur",
+        "label": "lang.webApplication",
+        "tags" : ["lang.companyProject", "lang.openSource"],
+        "isWeb": true,
+        "appLink": "https://preview.maarchparapheur.com",
+        "thumbnail": "img/MaarchParapheur/favicon.png",
+        "description": "lang.maarchParapheurDescription",
+        "carouselImgs": [
+            "img/MaarchParapheur/MaarchParapheur-admin.png",
+            "img/MaarchParapheur/MaarchParapheur-doc-circuit.png",
+            "img/MaarchParapheur/MaarchParapheur-loging.png"
+        ]
+    },
+    {
+        "title": "iSales Pro",
+        "label": "lang.professionalMobileApp",
+        "tags" : ["lang.companyProject"],
+        "isMobile": true,
+        "appLink": "https://play.google.com/store/apps/details?id=com.iSales_Pro___",
+        "thumbnail": "img/isalesPro/isalesPro-presentation-store.png",
+        "description": "lang.iSalesProDescription",
+        "carouselImgs": [
+            "img/isalesPro/isalesPro-presentation-store.png",
+            "img/isalesPro/1-isalesPro-presentation-store.webp",
+            "img/isalesPro/2-isalesPro-presentation-store.webp",
+            "img/isalesPro/3-isalesPro-presentation-store.webp",
+            "img/isalesPro/4-isalesPro-presentation-store.webp",
+            "img/isalesPro/5-isalesPro-presentation-store.webp",
+            "img/isalesPro/6-isalesPro-presentation-store.webp",
+            "img/isalesPro/7-isalesPro-presentation-store.webp",
+            "img/isalesPro/8-isalesPro-presentation-store.webp"
+        ]
+    },
+    {
+        "title": "iStock",
+        "label": "lang.professionalMobileApp",
+        "tags" : ["lang.companyProject"],
+        "isMobile": true,
+        "appLink": "https://play.google.com/store/apps/details?id=com.iStock",
+        "thumbnail": "img/istock/istock-presentation-store.png",
+        "description": "lang.iStockDescription",
+        "carouselImgs": [
+            "img/istock/istock-presentation-store.png",
+            "img/istock/1-istock-presentation-store.jpg",
+            "img/istock/2-istock-presentation-store.jpg",
+            "img/istock/3-istock-presentation-store.jpg",
+            "img/istock/4-istock-presentation-store.jpg",
+            "img/istock/5-istock-presentation-store.jpg",
+            "img/istock/iStock-scaled-design-wireframe.png",
+            "img/istock/using-istock.png"
+        ]
+    },
+    {
+        "title": "iInventaire",
+        "label": "lang.professionalMobileApp",
+        "tags" : ["lang.companyProject"],
+        "isMobile": true,
+        "appLink": "https://play.google.com/store/apps/details?id=com.iinventaire",
+        "thumbnail": "img/iinventaire/iInventaire-presentation-store.png",
+        "description": "lang.iInventaireDescription",
+        "carouselImgs": [
+            "img/iinventaire/iInventaire-presentation-store.png",
+            "img/iinventaire/1-iInventaire-presentation-store.png",
+            "img/iinventaire/2-iInventaire-presentation-store.png",
+            "img/iinventaire/3-iInventaire-presentation-store.png",
+            "img/iinventaire/4-iInventaire-presentation-store.png",
+            "img/iinventaire/5-iInventaire-presentation-store.png",
+            "img/iinventaire/6-iInventaire-presentation-store.png",
+            "img/iinventaire/7-iInventaire-presentation-store.png",
+            "img/iinventaire/8-iInventaire-presentation-store.png",
+            "img/iinventaire/iInventaire-scaled-design-wireframe.png"
+        ]
+    },
+    {
+        "title": "iNetty Mobile",
+        "label": "lang.professionalMobileApp",
+        "tags" : ["lang.companyProject"],
+        "isMobile": true,
+        "appLink": "https://play.google.com/store/apps/details?id=com.anexys.inetty",
+        "thumbnail": "img/inetty/inetty-presentation-store.png",
+        "description": "lang.iNettyMobileDescription",
+        "carouselImgs": [
+            "img/inetty/inetty-presentation-store.png",
+            "img/inetty/1-inetty-presentation-store.jpg",
+            "img/inetty/2-inetty-presentation-store.jpg",
+            "img/inetty/3-inetty-presentation-store.jpg",
+            "img/inetty/4-inetty-presentation-store.jpg",
+            "img/inetty/5-inetty-presentation-store.jpg",
+            "img/inetty/6-inetty-presentation-store.jpg",
+            "img/inetty/7-inetty-presentation-store.jpg",
+            "img/inetty/8-inetty-presentation-store.jpg"
+        ]
+    },
+    {
+        "title": "Pacman",
+        "label": "lang.webGaming",
+        "tags" : ["lang.personalProject"],
+        "isWeb": true,
+        "appLink": "https://jdevs10.github.io/Pacman-Web-Game",
+        "thumbnail": "img/Pacman/game-intro.png",
+        "description": "lang.pacmanDescription",
+        "carouselImgs": [
+            "img/Pacman/carousel-1.png",
+            "img/Pacman/carousel-2.png",
+            "img/Pacman/carousel-3.png",
+            "img/Pacman/carousel-4.png"
+        ]
+    },
+    {
+        "title": "Archetype ECS Lib",
+        "label": "lang.npmPackage",
+        "tags" : ["lang.personalProject", "lang.webGaming"],
+        "isWeb": true,
+        "appLink": "https://www.npmjs.com/package/archetype-ecs-lib",
+        "thumbnail": "img/Archetype-ECS-Lib/favicon.png",
+        "description": "lang.archetypeEcsLibDescription",
+        "carouselImgs": [
+            "img/Archetype-ECS-Lib/favicon.png",
+            "img/Archetype-ECS-Lib/image.png"
+        ]
+    },
+    {
+        "title": "Project T.A.",
+        "label": "lang.personalMobileApp",
+        "tags" : ["lang.personalProject", "lang.inDevelopment"],
+        "isMobile": true,
+        "apkDemoLink": "",
+        "appLink": "",
+        "thumbnail": "img/Classified-Stamp.png",
+        "description": "lang.projectTA",
+        "carouselImgs": [
+            "img/Classified-Stamp.png",
+            "img/Classified-Stamp.png"
+        ]
+    }
+]

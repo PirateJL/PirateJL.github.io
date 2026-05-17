@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bg-styles.css">
+    <link rel="stylesheet" href="css/responsible.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Portfolio JL</title>
+    <script src="js/tagcanvas.js"></script>
+    <script src="js/notifyMe.js"></script>
+    <script defer src="js/bundle.js"></script>
+</head>
+<body>
+
+    <menu id="myMenu" class="main-menu"></menu>
+    
+    <div id="myContainer">
+        <div class="page-outer">
+            <span class="tags top-tags"> &lt;html&gt; <br> </span>
+            <div class="page-inner">
+                <section id="section-home" class="section-full section-home js-page-home loaded">
+                    <div class="text-zone">
+                        <h1 aria-label="{{'lang.welcomeIam' | translate}}" class="blast-root"></h1>
+                        <p class="gray-text">{{'lang.specializeIn' | translate}}</p> <br> 
+                        <a rel="contact" href="contact.html" class="flat-button">
+                            <div> 
+                                <span class="bg"></span>
+                                <span class="base"></span> 
+                                <span class="text">{{'lang.contactMe' | translate}}!</span>
+                            </div> 
+                        </a>
+                    </div>
+                    
+                    <div id="welcomeCanvasStopMotion"></div>
+
+                    <canvas style="position: absolute;left:0;z-index: -1;" id="welcomeCanvas"></canvas>
+                    
+                    <div class="scroll-down"> 
+                        <span id="sd1">{{'lang.scrollDown' | translate}}</span> &nbsp;
+                        <span id="sd2">
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-down fa-w-14 fa-5x">
+                                <path fill="currentColor" d="M443.5 248.5l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L241 419.9V44c0-6.6-5.4-12-12-12h-10c-6.6 0-12 5.4-12 12v375.9L28.5 241.4c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.8 4.8-12.3.1-17z" class=""></path>
+                            </svg>                            
+                        </span>
+                    </div>
+                </section>
+
+                <section id="section-work" data-load="work" class="section-full section-work js-way">
+                    <div class="fake-big">{{'lang.work' | translate}}</div>
+                    <div class="text-zone">
+                        <div>
+                            <header>
+                                <h2 aria-label="{{'lang.myPortfolio' | translate}}" class="blast-root"></h2>
+                            </header>
+                            <br>
+                            {{'lang.myPortfolioSummary' | translate}}
+                        </div>
+                        <div> 
+                            <a rel="work" href="/portfolio.html" class="flat-button">
+                                <div> 
+                                    <span class="bg"></span> 
+                                    <span class="base"></span> 
+                                    <span class="text">{{'lang.seeMore' | translate}}!</span>
+                                </div> 
+                            </a>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div id="portfolio-wall" class="fake-magicwall bg-section-openTag bg-section-closeTag"></div>
+                    <br><br><br>
+                </section>
+
+                <section id="section-about" data-load="about" class="section-full section-about js-way">
+                    <div class="scroll-down"> 
+                        <span id="sd1">{{'lang.scrollDown' | translate}}</span> &nbsp;
+                        <span id="sd2">
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-down fa-w-14 fa-5x">
+                                <path fill="currentColor" d="M443.5 248.5l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L241 419.9V44c0-6.6-5.4-12-12-12h-10c-6.6 0-12 5.4-12 12v375.9L28.5 241.4c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.8 4.8-12.3.1-17z" class=""></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="text-zone">
+                            <header>
+                                <h2 aria-label="{{'lang.whatIamInto' | translate}}?" class="blast-root"></h2>
+                            </header>
+                            <br>
+                            {{'lang.summaryOfwhatIamInto' | translate}}
+                        </div>
+                        <div class="skills-charts">
+                            <div id="myTechCanvasContainer">
+                                <canvas id="myTechCanvas" width="500" height="500"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <section id="section-contact" class="section-full section-contact">
+                    <div class="row" style="width: 100%;">
+                        <div class="fake-big">@</div>   
+                        
+                        <div id="contact-info" class="contactBlock">
+                            <div class="row">
+                                <div class="infoBlock">
+                                    <div class="infoWrap">
+                                        <header>
+                                            <h3 class="blast-root" aria-label="{{'lang.contactMe' | translate}}"></h3>
+                                        </header>
+                                        <ul>
+                                            <li class="phone"><a href="tel:+33766112937">+33766112937</a></li>
+                                            <li class="mail"><a href="mailto:jl.duzant97150@outlook.com">jl.duzant97150@outlook.com</a></li>
+                                            <li class="adr"><a href="https://goo.gl/maps/JXxyiPtmvqbSa6b87" target="_blank">{{'lang.inParis' | translate}}</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pitchBlock">
+                                    <form id="sendContact" class="infoWrap">
+                                        <header>
+                                            <h3 class="blast-root" aria-label="{{'lang.pitchMe' | translate}}"></h3>
+                                        </header>
+                                        <div class="text">
+                                            <input type="text" class="contactNameInpt">
+                                            <input type="text" class="contactMailInpt">
+                                            <input type="text" class="contactProjectInpt">
+                                            {{'lang.contactPart1Hello' | translate}},<br>
+                                            <br>
+                                            {{'lang.contactPart2MyNameIs' | translate}} <div class="cFormInput" contenteditable="true">{{'lang.contactPart3YourName' | translate}}</div>, {{'lang.contactPart4MyEmailIs' | translate}} <div class="cFormInput" contenteditable="true">{{'lang.contactPart5YourEmail' | translate}}</div> {{'lang.contactPart6WantToTalkAbout' | translate}} <div class="cFormInput" contenteditable="true">{{'lang.contactPart7ThisProject' | translate}}</div>.<br>
+                                        </div>
+                                        <button type="button" class="gradButton" onclick="Notify.send({});">Send Me</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="social-contact">
+                                <!-- Instagram Icon -->
+                                <div class="icon insta">
+                                    <img src="img/icons/instagram.svg" alt="Instagram icon" srcset="img/icons/instagram.svg">
+                                    <span>Instagram</span>
+                                </div>
+
+                                <!-- Linkedin Icon -->
+                                <div class="icon lnk">
+                                    <img src="img/icons/linkedin.svg" alt="Instagram icon" srcset="img/icons/linkedin.svg">
+                                    <span>Linkedin</span>
+                                </div>
+
+                                <!-- Github Icon -->
+                                <div class="icon git">
+                                    <img src="img/icons/github.svg" alt="Instagram icon" srcset="img/icons/github.svg">
+                                    <span>Github</span>
+                                </div>
+
+                                <!-- Codepen Icon -->
+                                <div class="icon codep">
+                                    <img src="img/icons/codepen.svg" alt="Instagram icon" srcset="img/icons/codepen.svg">
+                                    <span>Codepen</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="contact-map" class="contactBlock" style="position: relative; overflow: hidden;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44762.173438978585!2d2.318195947574766!3d48.86134612978512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1692575821189!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <span class="tags bottom-tags"> <br> &lt;/html&gt; </span>
+        </div>
+    </div>
+</body>
+</html>

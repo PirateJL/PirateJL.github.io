@@ -1,0 +1,1 @@
+console.log("debug: notifyMe.js");const Notify={send:function(t){alert("Service not working on GitHub pages."),["contactInputName","contactInputEmail","contactInputSubject","contactInputMsg"].forEach(t=>{document.getElementById(t).value=""})}};

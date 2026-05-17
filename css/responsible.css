@@ -1,0 +1,300 @@
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .mbtn {
+        display: none;
+    }
+}
+
+/* For mobile menu
+large devices (large laptops and desktops, 1200px and under) */
+@media only screen and (max-width: 1200px) {
+    body {
+        padding-left: 0;
+    }
+    .mbtn {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        width: 4rem;
+        height: 4rem;
+        z-index: 100;
+        background-color: transparent;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .mbtn-op {
+        display: flex;
+    }
+    .mbtn-cl {
+        display: none;
+    }
+    .mbtn svg {
+        width: 3rem;
+    }
+    .mbtn svg path {
+        fill: #fff;
+    }
+    .main-menu {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: fixed;
+        z-index: 99;
+        display: none;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        opacity: 0;
+        -webkit-transition: opacity 0s 0.4s, z-index 0s 0.7s;
+        -o-transition: opacity 0s 0.4s, z-index 0s 0.7s;
+        transition: opacity 0s 0.4s, z-index 0s 0.7s;
+    }
+    .main-menu .social {
+        margin-top: 50px;
+    }
+    #welcomeCanvasStopMotion {
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1200px) {
+    h2 {
+        font-size: 5.3rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    .container {
+        max-width: 960px;
+    }
+    .work-box {
+        max-width: 350px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .container {
+        max-width: 960px;
+    }
+    .work-box {
+        max-width: 350px;
+    }
+    .fake-magicwall ul {
+        flex-direction: flex;
+    }
+    .fake-magicwall ul li {
+        width: 50%;
+    }
+    .popup {
+        width: 100%;
+    }
+    #showcase-project > * > .text-zone {
+        margin-top: 50px;
+    }
+    #showcase-project {
+        height: 130vh !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) and (max-height: 425px) {
+    .section-home .text-zone {
+        margin-top: 200px;
+    }
+}
+
+/* Extra small devices (phones, 425px and down) */
+@media only screen and (max-width: 425px) {
+    .fake-magicwall ul {
+        flex-direction: column;
+    }
+    .fake-magicwall ul li {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    h1 > img {
+        height: 30px;
+        width: 20px;
+        margin: 0 50px;
+    }
+    h2 {
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+    .space-right {
+        margin-right: 1.5rem;
+    }
+    .gray-text {
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+    }
+    .section-full .text-zone {
+        min-width: 100%;
+        padding: 0rem 3rem;
+        flex-direction: column;
+    }
+    .text-zone p {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+    .container {
+        max-width: 540px;
+    }
+    .section-full {
+        padding: 0rem;
+    }
+    .work-box {
+        width: 100%;
+    }
+    .skills-charts {
+        min-width: 100%;
+    }
+    .scroll-down {
+        font-size: 10px;
+    }
+
+    .social-contact{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    #section-about > * > .text-zone,
+    #showcase-project > * > .text-zone,
+    .page-skills > .text-zone,
+    #contact-info {
+        margin-top: 100px;
+    }
+    #section-about > * > .skills-charts,
+    #contact-map {
+        margin-bottom: 100px;
+    }
+    #work-wall {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    h1 > img {
+        height: 30px;
+        width: 20px;
+    }
+    h2 {
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+    .space-right {
+        margin-right: 1.5rem;
+    }
+    .gray-text {
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+    }
+    .section-full .text-zone {
+        min-width: 100%;
+        padding: 0rem 3rem;
+        flex-direction: column;
+    }
+    .text-zone p {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+    .container {
+        max-width: 540px;
+    }
+    .section-full {
+        padding: 0rem;
+    }
+    .work-box {
+        width: 100%;
+    }
+    .skills-charts {
+        min-width: 100%;
+    }
+    .scroll-down {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+    }
+    h1 > img {
+        height: 30px;
+        width: 20px;
+    }
+    h2 {
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+    .space-right {
+        margin-right: 1.5rem;
+    }
+    .gray-text {
+        font-size: 1.3rem;
+        letter-spacing: 0px;
+    }
+    .section-full .text-zone {
+        min-width: 100%;
+        padding: 0rem 3rem;
+        flex-direction: column;
+    }
+    .text-zone p {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+    .container {
+        max-width: 540px;
+    }
+    .section-full {
+        padding: 0rem;
+    }
+    .work-box {
+        width: 100%;
+    }
+    .skills-charts {
+        min-width: 100%;
+    }
+    .scroll-down {
+        font-size: 10px;
+    }
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    
+}

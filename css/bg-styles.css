@@ -1,0 +1,141 @@
+.tags {
+    color: #515152;
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-family: 'La Belle Aurore',cursive
+}
+.top-tags {
+    bottom: auto;
+    top: 2rem
+}
+.top-tags:after {
+    content: '<body>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-left: 2rem
+}
+.bottom-tags {
+    bottom: 2rem;
+    top: auto
+}
+.bottom-tags:before {
+    content: '</body>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-left: 2rem
+}
+
+h1:before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: -5rem;
+    left: -1.5rem;
+}
+h1:after {
+    content: '<h1/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: 3.8rem;
+    margin-left: 2rem;
+}
+.text-zone p:first-of-type:before {
+    content: '<p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515151;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -2rem;
+    left: -2rem;
+}
+.text-zone p:last-of-type:after {
+    content: '<p/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515151;
+    font-size: 18px;
+    position: absolute;
+    left: -2rem;
+    bottom: -2rem;
+}
+h2:before {
+    content: '<h2>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -2rem;
+    left: -1rem;
+}
+h2:after {
+    content: '<h2/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    left: -1rem;
+    bottom: -2rem;
+}
+.popup h1::before, .popup h1::after,
+.popup h2::before, .popup h2::after,
+.popup h3::before, .popup h3::after {
+    display: none;
+}
+.bg-section-openTag:before {
+    content: '<section>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: -4rem;
+    left: 2rem
+}
+.bg-section-closeTag:after {
+    content: '<section/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 2rem
+}
+.input__label--hoshi:before, .input__label--hoshi:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+.input__label--hoshi:after {
+    margin-top: 2px;
+    border-bottom: 2px solid #08fdd8;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+.input__label--hoshi-color-2:after {
+    border-color: #0fa;
+}
+.input__label--hoshi:before, .input__label--hoshi:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
