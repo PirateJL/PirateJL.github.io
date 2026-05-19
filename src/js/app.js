@@ -47,7 +47,7 @@ const App = {
         },
         {
             rel: "GitHub",
-            link: "https://github.com/JDevs10",
+            link: "https://github.com/piratejl",
             svgWidth: 17,
             svgHeight: 17,
             svgStyles: "color: #dbdbdb;",
@@ -77,7 +77,7 @@ const App = {
         this.initShowcaseProject();
         this.initResponsive();
 
-        console.log(App.TranslationServiceObj.translate("greeting", {string: 'JDevs10'}));
+        console.log(App.TranslationServiceObj.translate("greeting", {string: 'PirateJL'}));
 
         document.addEventListener('error', (event) => {
             window.location.href = "./404.html";
@@ -1015,7 +1015,7 @@ const App = {
     TranslationServiceObj: null,
     TranslationService: class {
         static mainLangContainer = 'main-menu-lang-container'; 
-        static localStorageLanguageTranslationKey = 'languageFor_jdevs10.github.io';
+        static localStorageLanguageTranslationKey = 'languageFor_piratejl.github.io';
         static availableLanguage = [
             {
                 type: 'en',
