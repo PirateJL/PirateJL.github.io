@@ -112,7 +112,7 @@
         "label": "lang.webGaming",
         "tags" : ["lang.personalProject"],
         "isWeb": true,
-        "appLink": "https://jdevs10.github.io/Pacman-Web-Game",
+        "appLink": "https://piratejl.github.io/Pacman-Web-Game",
         "thumbnail": "img/Pacman/game-intro.png",
         "description": "lang.pacmanDescription",
         "carouselImgs": [
